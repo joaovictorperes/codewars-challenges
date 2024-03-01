@@ -2,7 +2,7 @@
 
     // 28/02/24
 
-    /* DESCIPTION
+    /* DESCRIPTION
         Write function bmi that calculates body mass index (bmi = weight / height2).
 
         if bmi <= 18.5 return "Underweight"
@@ -20,7 +20,7 @@
 
         switch ($result) {
             case $result <= 18.5:
-                $body_mass = 'Underwright';
+                $body_mass = 'Underweight';
                 break;
             case $result <= 25:
                 $body_mass = 'Normal';

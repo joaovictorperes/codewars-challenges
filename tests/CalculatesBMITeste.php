@@ -1,7 +1,9 @@
 <?php
+require_once 'C:\Users\vitor\OneDrive\php\codewars\8-kyu\PHP\Calculates_BMI\index.php';
+
 use PHPUnit\Framework\TestCase;
 
-class MyTest extends TestCase
+class CalculatesBMITeste extends TestCase
 {
     public function testFixedTests() {
       $this->assertEquals("Underweight", bmi(50, 1.80));
